@@ -5,7 +5,7 @@ import numpy as np
 from datetime import date
 
 st.title('Probabilidad de recupero de autos robados en Argentina')
-st.write('Un trabajo de Brun, Carpaneto y Spiousas para ClusterAI')
+st.write('Un trabajo de Brum, Carpaneto y Spiousas para ClusterAI')
 
 st.write('Te robaron el auto y querés saber cuál es la probabilidad de que '+
          'se recupere?')
