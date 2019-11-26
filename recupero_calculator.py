@@ -78,7 +78,7 @@ if st.checkbox('Calcular la probablidad!!!'):
     # Escaleo de los Datos
 
     # Calculo de la probablidad
-    prob = .3
+    prob = .9
 
     # Ploteo de la probabilidad
     st.title('La probabilidad de que lo recuperes es de '+ str(prob*100)+ '%')
@@ -92,6 +92,6 @@ if st.checkbox('Calcular la probablidad!!!'):
     st.pyplot()
 
     if prob > .5:
-      st.subheader("Suerte en esa :)")
+      st.success("Suerte en esa :)")
     else:
-      st.subheader("Lo siento amiguito :(")
+      st.error("Lo siento amiguito :(")
