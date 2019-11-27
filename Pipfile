@@ -9,6 +9,10 @@ verify_ssl = true
 streamlit = "*"
 pandas = "*"
 matplotlib = "*"
+numpy = "*"
+datetime = "*"
+sklearn = "*"
+joblib = "*"
 
 [requires]
 python_version = "3.7"
